@@ -52,3 +52,15 @@
 2025-07-20 11:32:47,810 - __main__.DataCleaner - INFO - Stored cleaned data in transactions
 2025-07-20 11:32:57,846 - __main__.DataCleaner - INFO - Saved cleaned data to output\cleaned_transactions.csv
 2025-07-20 11:32:57,847 - __main__.DataCleaner - INFO - Generated data quality report at output\data_quality_report.json
+2025-07-20 19:04:55,088 - __main__.DataCleaner - INFO - Fetching data for ^GSPC
+2025-07-20 19:05:04,290 - __main__.DataCleaner - INFO - Cleaning data for ^GSPC with 250 rows
+2025-07-20 19:05:04,340 - __main__.DataCleaner - INFO - Stored cleaned data in market_^GSPC
+2025-07-20 19:05:04,355 - __main__.DataCleaner - INFO - Saved cleaned data to output\cleaned_^GSPC.csv
+2025-07-20 19:05:04,355 - __main__.DataCleaner - INFO - Fetching data for EURUSD=X
+2025-07-20 19:05:06,731 - __main__.DataCleaner - INFO - Cleaning data for EURUSD=X with 259 rows
+2025-07-20 19:05:06,774 - __main__.DataCleaner - INFO - Stored cleaned data in market_EURUSD_X
+2025-07-20 19:05:06,779 - __main__.DataCleaner - INFO - Saved cleaned data to output\cleaned_EURUSD_X.csv
+2025-07-20 19:05:08,669 - __main__.DataCleaner - INFO - Cleaning transaction data with 284807 rows
+2025-07-20 19:05:11,778 - __main__.DataCleaner - INFO - Stored cleaned data in transactions
+2025-07-20 19:05:23,190 - __main__.DataCleaner - INFO - Saved cleaned data to output\cleaned_transactions.csv
+2025-07-20 19:05:23,192 - __main__.DataCleaner - INFO - Generated data quality report at output\data_quality_report.json
