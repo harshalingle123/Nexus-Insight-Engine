@@ -1,0 +1,54 @@
+2025-07-19 09:06:05,487 - __main__.DataCleaner - INFO - Fetching data for ^GSPC
+2025-07-19 09:06:09,102 - __main__.DataCleaner - INFO - Cleaning data for ^GSPC with 250 rows
+2025-07-19 09:06:09,137 - __main__.DataCleaner - INFO - Stored cleaned data in market_^GSPC
+2025-07-19 09:06:09,147 - __main__.DataCleaner - INFO - Saved cleaned data to output\cleaned_^GSPC.csv
+2025-07-19 09:06:09,147 - __main__.DataCleaner - INFO - Fetching data for EURUSD=X
+2025-07-19 09:06:11,673 - __main__.DataCleaner - INFO - Cleaning data for EURUSD=X with 259 rows
+2025-07-19 09:06:11,693 - __main__.DataCleaner - INFO - Stored cleaned data in market_EURUSD_X
+2025-07-19 09:06:11,698 - __main__.DataCleaner - INFO - Saved cleaned data to output\cleaned_EURUSD_X.csv
+2025-07-19 09:06:13,060 - __main__.DataCleaner - INFO - Cleaning transaction data with 284807 rows
+2025-07-19 09:06:15,408 - __main__.DataCleaner - INFO - Stored cleaned data in transactions
+2025-07-19 09:06:24,930 - __main__.DataCleaner - INFO - Saved cleaned data to output\cleaned_transactions.csv
+2025-07-19 09:06:24,932 - __main__.DataCleaner - ERROR - Error generating quality report: Object of type int64 is not JSON serializable
+2025-07-19 09:10:59,653 - __main__.DataCleaner - INFO - Fetching data for ^GSPC
+2025-07-19 09:11:03,246 - __main__.DataCleaner - INFO - Cleaning data for ^GSPC with 250 rows
+2025-07-19 09:11:03,275 - __main__.DataCleaner - INFO - Stored cleaned data in market_^GSPC
+2025-07-19 09:11:03,283 - __main__.DataCleaner - INFO - Saved cleaned data to output\cleaned_^GSPC.csv
+2025-07-19 09:11:03,284 - __main__.DataCleaner - INFO - Fetching data for EURUSD=X
+2025-07-19 09:11:05,821 - __main__.DataCleaner - INFO - Cleaning data for EURUSD=X with 259 rows
+2025-07-19 09:11:05,857 - __main__.DataCleaner - INFO - Stored cleaned data in market_EURUSD_X
+2025-07-19 09:11:05,863 - __main__.DataCleaner - INFO - Saved cleaned data to output\cleaned_EURUSD_X.csv
+2025-07-19 09:11:07,287 - __main__.DataCleaner - INFO - Cleaning transaction data with 284807 rows
+2025-07-19 09:11:09,511 - __main__.DataCleaner - INFO - Stored cleaned data in transactions
+2025-07-19 09:11:18,807 - __main__.DataCleaner - INFO - Saved cleaned data to output\cleaned_transactions.csv
+2025-07-19 09:11:18,808 - __main__.DataCleaner - INFO - Generated data quality report at output\data_quality_report.json
+2025-07-19 09:12:36,668 - __main__.DataCleaner - INFO - Fetching data for ^GSPC
+2025-07-19 09:12:41,211 - __main__.DataCleaner - INFO - Cleaning data for ^GSPC with 250 rows
+2025-07-19 09:12:41,239 - __main__.DataCleaner - INFO - Stored cleaned data in market_^GSPC
+2025-07-19 09:12:41,243 - __main__.DataCleaner - INFO - Saved cleaned data to output\cleaned_^GSPC.csv
+2025-07-19 09:12:41,243 - __main__.DataCleaner - INFO - Fetching data for EURUSD=X
+2025-07-19 09:12:43,825 - __main__.DataCleaner - INFO - Cleaning data for EURUSD=X with 259 rows
+2025-07-19 09:12:43,860 - __main__.DataCleaner - INFO - Stored cleaned data in market_EURUSD_X
+2025-07-19 09:12:43,865 - __main__.DataCleaner - INFO - Saved cleaned data to output\cleaned_EURUSD_X.csv
+2025-07-19 09:12:45,173 - __main__.DataCleaner - INFO - Cleaning transaction data with 284807 rows
+2025-07-19 09:12:47,428 - __main__.DataCleaner - INFO - Stored cleaned data in transactions
+2025-07-19 09:12:56,865 - __main__.DataCleaner - INFO - Saved cleaned data to output\cleaned_transactions.csv
+2025-07-19 09:12:56,866 - __main__.DataCleaner - INFO - Generated data quality report at output\data_quality_report.json
+2025-07-19 09:16:16,831 - __main__.DataCleaner - INFO - Fetching data for ^GSPC
+2025-07-19 09:16:16,843 - __main__.DataCleaner - INFO - Fetching data for ^GSPC
+2025-07-19 09:16:19,804 - __main__.DataCleaner - INFO - Fetching data for ^GSPC
+2025-07-19 09:19:27,254 - __main__.DataCleaner - INFO - Fetching data for ^GSPC
+2025-07-19 09:21:15,732 - __main__.DataCleaner - INFO - Fetching data for ^GSPC
+2025-07-19 09:28:15,504 - __main__.DataCleaner - INFO - Fetching data for ^GSPC
+2025-07-20 11:32:32,465 - __main__.DataCleaner - INFO - Fetching data for ^GSPC
+2025-07-20 11:32:40,385 - __main__.DataCleaner - INFO - Cleaning data for ^GSPC with 250 rows
+2025-07-20 11:32:40,423 - __main__.DataCleaner - INFO - Stored cleaned data in market_^GSPC
+2025-07-20 11:32:40,431 - __main__.DataCleaner - INFO - Saved cleaned data to output\cleaned_^GSPC.csv
+2025-07-20 11:32:40,431 - __main__.DataCleaner - INFO - Fetching data for EURUSD=X
+2025-07-20 11:32:42,991 - __main__.DataCleaner - INFO - Cleaning data for EURUSD=X with 259 rows
+2025-07-20 11:32:43,027 - __main__.DataCleaner - INFO - Stored cleaned data in market_EURUSD_X
+2025-07-20 11:32:43,030 - __main__.DataCleaner - INFO - Saved cleaned data to output\cleaned_EURUSD_X.csv
+2025-07-20 11:32:44,639 - __main__.DataCleaner - INFO - Cleaning transaction data with 284807 rows
+2025-07-20 11:32:47,810 - __main__.DataCleaner - INFO - Stored cleaned data in transactions
+2025-07-20 11:32:57,846 - __main__.DataCleaner - INFO - Saved cleaned data to output\cleaned_transactions.csv
+2025-07-20 11:32:57,847 - __main__.DataCleaner - INFO - Generated data quality report at output\data_quality_report.json

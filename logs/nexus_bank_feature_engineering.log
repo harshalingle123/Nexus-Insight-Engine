@@ -1,0 +1,17 @@
+2025-07-20 15:24:54,738 - __main__.FeatureEngineer - ERROR - Error processing market data for ^GSPC: Execution failed on sql 'SELECT * FROM market_^GSPC': unrecognized token: "^"
+2025-07-20 15:24:54,747 - __main__.FeatureEngineer - ERROR - Error processing market data for EURUSD_X: "None of ['index'] are in the columns"
+2025-07-20 15:24:57,323 - __main__.FeatureEngineer - INFO - Aggregating transaction data
+2025-07-20 15:24:57,424 - __main__.FeatureEngineer - WARNING - No account_id column; skipping account aggregation
+2025-07-20 15:24:57,500 - __main__.FeatureEngineer - INFO - Stored features in features_transactions_daily
+2025-07-20 15:24:57,500 - __main__.FeatureEngineer - ERROR - Error storing features in features_transactions_daily: 'actions'
+2025-07-20 15:24:57,501 - __main__.FeatureEngineer - ERROR - Error processing transaction data: 'actions'
+2025-07-20 15:24:57,501 - __main__.FeatureEngineer - INFO - Saved documentation to output\feature_engineering_documentation.md
+2025-07-20 15:24:57,502 - __main__.FeatureEngineer - ERROR - Error saving documentation: 'actions'
+2025-07-20 15:40:00,395 - __main__.FeatureEngineer - ERROR - Error processing market data for ^GSPC: "None of ['index'] are in the columns"
+2025-07-20 15:40:00,397 - __main__.FeatureEngineer - ERROR - Error processing market data for EURUSD=X: "None of ['index'] are in the columns"
+2025-07-20 15:40:03,166 - __main__.FeatureEngineer - INFO - Aggregating transaction data
+2025-07-20 15:40:03,233 - __main__.FeatureEngineer - INFO - No account_id column; skipping account aggregation
+2025-07-20 15:40:03,287 - __main__.FeatureEngineer - INFO - Stored features in features_transactions_daily
+2025-07-20 15:40:03,290 - __main__.FeatureEngineer - INFO - Optimized schema for transactions
+2025-07-20 15:40:03,290 - __main__.FeatureEngineer - INFO - Saved documentation to output\feature_engineering_documentation.md
+2025-07-20 15:40:03,291 - __main__.FeatureEngineer - INFO - Generated feature report at output\feature_engineering_report.json

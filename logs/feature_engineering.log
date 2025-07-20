@@ -1,0 +1,25 @@
+2025-07-20 15:44:07,279 - __main__.FeatureEngineer - ERROR - Error processing market data for ^GSPC: Execution failed on sql 'SELECT * FROM market_^GSPC': unrecognized token: "^"
+2025-07-20 15:44:07,284 - __main__.FeatureEngineer - INFO - Computing technical indicators for EURUSD=X
+2025-07-20 15:44:07,313 - __main__.FeatureEngineer - INFO - Stored feature data in features_EURUSD_X
+2025-07-20 15:44:07,322 - __main__.FeatureEngineer - INFO - Saved feature data to output\features_EURUSD_X.csv
+2025-07-20 15:44:09,901 - __main__.FeatureEngineer - INFO - Aggregating transaction data
+2025-07-20 15:44:09,929 - __main__.FeatureEngineer - ERROR - Error aggregating transactions: 'Account'
+2025-07-20 15:44:09,930 - __main__.FeatureEngineer - INFO - Optimizing database schema
+2025-07-20 15:44:09,931 - __main__.FeatureEngineer - ERROR - Error optimizing database: unrecognized token: "^"
+2025-07-20 15:44:09,932 - __main__.FeatureEngineer - INFO - Generated feature report at output\feature_engineering_report.json
+2025-07-20 15:47:28,927 - __main__.FeatureEngineer - ERROR - Error processing market data for ^GSPC: Execution failed on sql 'SELECT * FROM market_^GSPC': unrecognized token: "^"
+2025-07-20 15:47:28,932 - __main__.FeatureEngineer - INFO - Computing technical indicators for EURUSD=X
+2025-07-20 15:47:28,943 - __main__.FeatureEngineer - WARNING - Found 19 missing values in EURUSD=X.sma_20
+2025-07-20 15:47:28,946 - __main__.FeatureEngineer - WARNING - Found 49 missing values in EURUSD=X.sma_50
+2025-07-20 15:47:28,947 - __main__.FeatureEngineer - WARNING - Found 19 missing values in EURUSD=X.bb_middle
+2025-07-20 15:47:28,947 - __main__.FeatureEngineer - WARNING - Found 19 missing values in EURUSD=X.bb_std
+2025-07-20 15:47:28,948 - __main__.FeatureEngineer - WARNING - Found 19 missing values in EURUSD=X.bb_upper
+2025-07-20 15:47:28,948 - __main__.FeatureEngineer - WARNING - Found 19 missing values in EURUSD=X.bb_lower
+2025-07-20 15:47:28,949 - __main__.FeatureEngineer - WARNING - Found 13 missing values in EURUSD=X.rsi_14
+2025-07-20 15:47:28,971 - __main__.FeatureEngineer - INFO - Successfully stored 259 rows in features_EURUSD_X
+2025-07-20 15:47:28,977 - __main__.FeatureEngineer - INFO - Saved feature data to output\features_EURUSD_X.csv
+2025-07-20 15:47:31,440 - __main__.FeatureEngineer - INFO - Aggregating transaction data
+2025-07-20 15:47:31,465 - __main__.FeatureEngineer - ERROR - Error aggregating transactions: 'Account'
+2025-07-20 15:47:31,467 - __main__.FeatureEngineer - INFO - Optimizing database schema
+2025-07-20 15:47:31,469 - __main__.FeatureEngineer - ERROR - Error optimizing database: unrecognized token: "^"
+2025-07-20 15:47:31,470 - __main__.FeatureEngineer - INFO - Generated feature report at output\feature_engineering_report.json

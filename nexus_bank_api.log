@@ -1,0 +1,318 @@
+2025-06-06 09:07:28,950 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+2025-06-06 09:07:28,950 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-06 09:07:28,980 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-06 09:07:31,930 - werkzeug - WARNING -  * Debugger is active!
+2025-06-06 09:07:31,930 - werkzeug - INFO -  * Debugger PIN: 225-663-932
+2025-06-06 09:25:08,424 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+2025-06-06 09:25:08,424 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-06 09:25:08,441 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-06 09:25:10,896 - werkzeug - WARNING -  * Debugger is active!
+2025-06-06 09:25:10,907 - werkzeug - INFO -  * Debugger PIN: 225-663-932
+2025-06-06 09:26:19,445 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 09:26:19] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-06 09:26:19,474 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 09:26:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-06 09:26:29,975 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 09:26:29] "[33mPOST / HTTP/1.1[0m" 404 -
+2025-06-06 09:27:14,409 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 09:27:14] "[31m[1mPOST /api/stock/AAPL?period=1mo&interval=1d HTTP/1.1[0m" 405 -
+2025-06-06 09:27:38,134 - __main__.YahooFinanceAPI - INFO - Fetching stock data for AAPL
+2025-06-06 09:27:40,932 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 09:27:40] "GET /api/stock/AAPL?period=1mo&interval=1d HTTP/1.1" 200 -
+2025-06-06 09:28:15,008 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 09:28:15] "[33mGET /%20/api/company/AAPL HTTP/1.1[0m" 404 -
+2025-06-06 09:28:22,723 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 09:28:22] "[33mGET /%20api/company/AAPL HTTP/1.1[0m" 404 -
+2025-06-06 09:28:58,257 - __main__.YahooFinanceAPI - INFO - Fetching company info for AAPL
+2025-06-06 09:28:59,608 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 09:28:59] "GET /api/company/AAPL HTTP/1.1" 200 -
+2025-06-06 09:29:14,602 - __main__.YahooFinanceAPI - INFO - Fetching stock data for EURUSD=X
+2025-06-06 09:29:15,302 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 09:29:15] "GET /api/forex/EURUSD?period=3mo HTTP/1.1" 200 -
+2025-06-06 09:29:50,399 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 09:29:50] "[33mGET /%20/api/crypto/ HTTP/1.1[0m" 404 -
+2025-06-06 09:30:04,824 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 09:30:04] "[33mGET /%20/api/crypto/BTC?period=1mo HTTP/1.1[0m" 404 -
+2025-06-06 09:30:10,451 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 09:30:10] "[33mGET /%20api/crypto/BTC?period=1mo HTTP/1.1[0m" 404 -
+2025-06-06 09:30:19,243 - __main__.YahooFinanceAPI - INFO - Fetching stock data for BTC-USD
+2025-06-06 09:30:19,766 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 09:30:19] "GET /api/crypto/BTC?period=1mo HTTP/1.1" 200 -
+2025-06-06 09:30:44,724 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^GSPC
+2025-06-06 09:30:45,236 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 09:30:45] "GET /api/index/GSPC?period=6mo HTTP/1.1" 200 -
+2025-06-06 09:31:19,954 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^GSPC
+2025-06-06 09:31:20,616 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^DJI
+2025-06-06 09:31:21,318 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^IXIC
+2025-06-06 09:31:21,807 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^RUT
+2025-06-06 09:31:22,174 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^VIX
+2025-06-06 09:31:22,434 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 09:31:22] "GET /api/market_summary HTTP/1.1" 200 -
+2025-06-06 09:36:34,794 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 09:36:34] "GET /api/endpoints HTTP/1.1" 200 -
+2025-06-06 09:36:38,576 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 09:36:38] "GET /api/endpoints HTTP/1.1" 200 -
+2025-06-06 09:38:35,000 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 09:38:35] "[31m[1mGET /api/multiple_stocks HTTP/1.1[0m" 405 -
+2025-06-06 09:38:46,506 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 09:38:46] "[31m[1mPOST /api/multiple_stocks HTTP/1.1[0m" 400 -
+2025-06-06 09:39:45,071 - __main__.YahooFinanceAPI - INFO - Fetching data for multiple stocks: ['AAPL', 'GOOGL', 'MSFT', 'AMZN']
+2025-06-06 09:39:45,071 - __main__.YahooFinanceAPI - INFO - Fetching stock data for AAPL
+2025-06-06 09:39:45,592 - __main__.YahooFinanceAPI - INFO - Fetching stock data for GOOGL
+2025-06-06 09:39:46,001 - __main__.YahooFinanceAPI - INFO - Fetching stock data for MSFT
+2025-06-06 09:39:46,650 - __main__.YahooFinanceAPI - INFO - Fetching stock data for AMZN
+2025-06-06 09:39:47,062 - werkzeug - INFO - 127.0.0.1 - - [06/Jun/2025 09:39:47] "POST /api/multiple_stocks HTTP/1.1" 200 -
+2025-06-07 21:07:33,097 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.5:5000
+2025-06-07 21:07:33,097 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-07 21:07:33,146 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-07 21:07:37,192 - werkzeug - WARNING -  * Debugger is active!
+2025-06-07 21:07:37,209 - werkzeug - INFO -  * Debugger PIN: 225-663-932
+2025-06-07 21:08:07,228 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 21:08:07] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-07 21:08:07,485 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 21:08:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-07 21:08:50,722 - __main__.YahooFinanceAPI - INFO - Fetching stock data for AAPL
+2025-06-07 21:08:52,839 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 21:08:52] "GET /api/stock/AAPL HTTP/1.1" 200 -
+2025-06-07 21:11:00,807 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 21:11:00] "[31m[1mPOST /api/stock/AAPL HTTP/1.1[0m" 405 -
+2025-06-07 21:11:38,022 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 21:11:38] "[31m[1mPOST /api/stock/AAPL?period=1mo&interval=1d HTTP/1.1[0m" 405 -
+2025-06-07 21:11:54,137 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 21:11:54] "[31m[1mPOST /api/stock/AAPL?period=1mo&interval=1d HTTP/1.1[0m" 405 -
+2025-06-07 21:11:59,529 - __main__.YahooFinanceAPI - INFO - Fetching stock data for AAPL
+2025-06-07 21:12:00,199 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 21:12:00] "GET /api/stock/AAPL?period=1mo&interval=1d HTTP/1.1" 200 -
+2025-06-07 21:25:17,647 - __main__.YahooFinanceAPI - INFO - Fetching company info for AAPL
+2025-06-07 21:25:18,978 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 21:25:18] "GET /api/company/AAPL HTTP/1.1" 200 -
+2025-06-07 21:25:57,001 - __main__.YahooFinanceAPI - INFO - Fetching stock data for EURUSD=X
+2025-06-07 21:25:57,398 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 21:25:57] "GET /api/forex/EURUSD?period=3mo HTTP/1.1" 200 -
+2025-06-07 21:26:26,316 - __main__.YahooFinanceAPI - INFO - Fetching stock data for BTC-USD
+2025-06-07 21:26:26,590 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 21:26:26] "GET /api/crypto/BTC?period=1mo HTTP/1.1" 200 -
+2025-06-07 21:26:51,740 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^GSPC
+2025-06-07 21:26:52,113 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 21:26:52] "GET /api/index/GSPC?period=6mo HTTP/1.1" 200 -
+2025-06-07 21:27:16,531 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^GSPC
+2025-06-07 21:27:16,843 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^DJI
+2025-06-07 21:27:17,011 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^IXIC
+2025-06-07 21:27:17,168 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^RUT
+2025-06-07 21:27:17,331 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^VIX
+2025-06-07 21:27:17,592 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 21:27:17] "GET /api/market_summary HTTP/1.1" 200 -
+2025-06-07 21:27:43,941 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 21:27:43] "GET /api/health HTTP/1.1" 200 -
+2025-06-07 21:28:02,643 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 21:28:02] "GET /api/endpoints HTTP/1.1" 200 -
+2025-06-07 21:29:04,434 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 21:29:04] "[31m[1mGET /api/multiple_stocks HTTP/1.1[0m" 405 -
+2025-06-07 21:29:04,524 - werkzeug - INFO - 127.0.0.1 - - [07/Jun/2025 21:29:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-14 19:59:30,605 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.14:5000
+2025-06-14 19:59:30,605 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 19:59:30,642 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 20:04:37,230 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.14:5000
+2025-06-14 20:04:37,233 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-14 20:04:37,256 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 20:04:40,270 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 20:04:40,274 - werkzeug - INFO -  * Debugger PIN: 225-663-932
+2025-06-14 20:04:48,747 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^GSPC
+2025-06-14 20:04:50,963 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 20:04:50] "GET /api/stock/^GSPC?period=1y HTTP/1.1" 200 -
+2025-06-14 20:04:53,055 - __main__.YahooFinanceAPI - INFO - Fetching stock data for EURUSD=X
+2025-06-14 20:04:53,593 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 20:04:53] "GET /api/stock/EURUSD=X?period=1y HTTP/1.1" 200 -
+2025-06-14 20:04:53,659 - werkzeug - INFO -  * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\json\\__init__.py', reloading
+2025-06-14 20:04:53,661 - werkzeug - INFO -  * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\json\\encoder.py', reloading
+2025-06-14 20:04:54,871 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 20:04:57,563 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 20:04:57,571 - werkzeug - INFO -  * Debugger PIN: 225-663-932
+2025-06-14 20:05:53,977 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_clening.py', reloading
+2025-06-14 20:05:53,981 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_clening.py', reloading
+2025-06-14 20:05:54,932 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 20:05:57,982 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 20:05:57,988 - werkzeug - INFO -  * Debugger PIN: 225-663-932
+2025-06-14 20:06:04,483 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^GSPC
+2025-06-14 20:06:06,483 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 20:06:06] "GET /api/stock/^GSPC?period=1y HTTP/1.1" 200 -
+2025-06-14 20:06:08,608 - __main__.YahooFinanceAPI - INFO - Fetching stock data for EURUSD=X
+2025-06-14 20:06:08,906 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 20:06:08] "GET /api/stock/EURUSD=X?period=1y HTTP/1.1" 200 -
+2025-06-14 20:15:48,734 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_clening.py', reloading
+2025-06-14 20:15:48,738 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_clening.py', reloading
+2025-06-14 20:15:49,359 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 20:15:52,500 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 20:15:52,506 - werkzeug - INFO -  * Debugger PIN: 225-663-932
+2025-06-14 20:15:57,268 - werkzeug - INFO -  * Detected change in 'C:\\ProgramData\\anaconda3\\Lib\\site-packages\\pyparsing\\core.py', reloading
+2025-06-14 20:15:57,832 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 20:16:00,240 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 20:16:00,245 - werkzeug - INFO -  * Debugger PIN: 225-663-932
+2025-06-14 20:17:39,484 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_clening.py', reloading
+2025-06-14 20:17:39,515 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_clening.py', reloading
+2025-06-14 20:17:39,518 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_clening.py', reloading
+2025-06-14 20:17:40,745 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 20:17:43,674 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 20:17:43,683 - werkzeug - INFO -  * Debugger PIN: 225-663-932
+2025-06-14 20:18:07,219 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^GSPC
+2025-06-14 20:18:08,962 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 20:18:08] "GET /api/stock/^GSPC?period=1y HTTP/1.1" 200 -
+2025-06-14 20:18:11,096 - __main__.YahooFinanceAPI - INFO - Fetching stock data for EURUSD=X
+2025-06-14 20:18:11,590 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 20:18:11] "GET /api/stock/EURUSD=X?period=1y HTTP/1.1" 200 -
+2025-06-14 20:20:52,866 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_clening.py', reloading
+2025-06-14 20:20:52,895 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_clening.py', reloading
+2025-06-14 20:20:53,989 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2025-06-14 20:20:56,865 - werkzeug - WARNING -  * Debugger is active!
+2025-06-14 20:20:56,870 - werkzeug - INFO -  * Debugger PIN: 225-663-932
+2025-06-14 20:21:01,790 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^GSPC
+2025-06-14 20:21:03,604 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 20:21:03] "GET /api/stock/^GSPC?period=1y HTTP/1.1" 200 -
+2025-06-14 20:21:05,729 - __main__.YahooFinanceAPI - INFO - Fetching stock data for EURUSD=X
+2025-06-14 20:21:06,146 - werkzeug - INFO - 127.0.0.1 - - [14/Jun/2025 20:21:06] "GET /api/stock/EURUSD=X?period=1y HTTP/1.1" 200 -
+2025-07-19 08:48:21,426 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-07-19 08:48:21,427 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 08:48:21,429 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 08:48:22,722 - werkzeug - WARNING -  * Debugger is active!
+2025-07-19 08:48:22,728 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-19 08:51:28,191 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^GSPC
+2025-07-19 08:51:34,916 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 08:51:34] "GET /api/stock/^GSPC?period=1y HTTP/1.1" 200 -
+2025-07-19 08:51:43,285 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-07-19 08:51:43,286 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 08:51:43,289 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 08:51:44,661 - werkzeug - WARNING -  * Debugger is active!
+2025-07-19 08:51:44,666 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-19 08:52:19,794 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^GSPC
+2025-07-19 08:52:20,255 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 08:52:20] "GET /api/stock/^GSPC?period=1y HTTP/1.1" 200 -
+2025-07-19 08:52:22,345 - __main__.YahooFinanceAPI - INFO - Fetching stock data for EURUSD=X
+2025-07-19 08:52:22,675 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 08:52:22] "GET /api/stock/EURUSD=X?period=1y HTTP/1.1" 200 -
+2025-07-19 09:00:00,803 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_clening.py', reloading
+2025-07-19 09:00:01,015 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 09:00:01,451 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_clening.py', reloading
+2025-07-19 09:00:01,609 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 09:00:02,357 - werkzeug - WARNING -  * Debugger is active!
+2025-07-19 09:00:02,361 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-19 09:00:02,857 - werkzeug - WARNING -  * Debugger is active!
+2025-07-19 09:00:02,861 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-19 09:00:12,167 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^GSPC
+2025-07-19 09:00:13,871 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 09:00:13] "GET /api/stock/^GSPC?period=1y HTTP/1.1" 200 -
+2025-07-19 09:00:15,954 - __main__.YahooFinanceAPI - INFO - Fetching stock data for EURUSD=X
+2025-07-19 09:00:16,486 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 09:00:16] "GET /api/stock/EURUSD=X?period=1y HTTP/1.1" 200 -
+2025-07-19 09:00:48,448 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^GSPC
+2025-07-19 09:00:49,441 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 09:00:49] "GET /api/stock/^GSPC?period=1y HTTP/1.1" 200 -
+2025-07-19 09:00:51,535 - __main__.YahooFinanceAPI - INFO - Fetching stock data for EURUSD=X
+2025-07-19 09:00:53,017 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 09:00:53] "GET /api/stock/EURUSD=X?period=1y HTTP/1.1" 200 -
+2025-07-19 09:01:28,936 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_clening.py', reloading
+2025-07-19 09:01:29,213 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 09:01:29,961 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_clening.py', reloading
+2025-07-19 09:01:30,092 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 09:01:30,516 - werkzeug - WARNING -  * Debugger is active!
+2025-07-19 09:01:30,523 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-19 09:01:31,329 - werkzeug - WARNING -  * Debugger is active!
+2025-07-19 09:01:31,334 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-19 09:01:37,154 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^GSPC
+2025-07-19 09:01:38,752 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 09:01:38] "GET /api/stock/^GSPC?period=1y HTTP/1.1" 200 -
+2025-07-19 09:01:40,848 - __main__.YahooFinanceAPI - INFO - Fetching stock data for EURUSD=X
+2025-07-19 09:01:41,740 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 09:01:41] "GET /api/stock/EURUSD=X?period=1y HTTP/1.1" 200 -
+2025-07-19 09:05:58,867 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_clening.py', reloading
+2025-07-19 09:05:59,021 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 09:05:59,241 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_clening.py', reloading
+2025-07-19 09:05:59,469 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 09:06:00,658 - werkzeug - WARNING -  * Debugger is active!
+2025-07-19 09:06:00,665 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-19 09:06:00,671 - werkzeug - WARNING -  * Debugger is active!
+2025-07-19 09:06:00,676 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-19 09:06:07,543 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^GSPC
+2025-07-19 09:06:09,091 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 09:06:09] "GET /api/stock/^GSPC?period=1y HTTP/1.1" 200 -
+2025-07-19 09:06:11,194 - __main__.YahooFinanceAPI - INFO - Fetching stock data for EURUSD=X
+2025-07-19 09:06:11,668 - werkzeug - INFO - 127.0.0.1 - - [19/Jul/2025 09:06:11] "GET /api/stock/EURUSD=X?period=1y HTTP/1.1" 200 -
+2025-07-19 09:08:09,631 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_data.py', reloading
+2025-07-19 09:08:09,757 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 09:08:10,726 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_data.py', reloading
+2025-07-19 09:08:10,952 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 09:10:55,256 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 09:12:33,720 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 09:16:15,564 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 09:20:43,384 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2025-07-19 09:20:43,385 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-19 09:20:43,388 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 09:20:44,849 - werkzeug - WARNING -  * Debugger is active!
+2025-07-19 09:20:44,854 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-19 09:21:06,286 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_clening.py', reloading
+2025-07-19 09:21:06,525 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 09:21:07,803 - werkzeug - WARNING -  * Debugger is active!
+2025-07-19 09:21:07,808 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-19 09:21:58,982 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_clening.py', reloading
+2025-07-19 09:21:59,122 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 09:22:00,608 - werkzeug - WARNING -  * Debugger is active!
+2025-07-19 09:22:00,616 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-19 09:22:02,134 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_clening.py', reloading
+2025-07-19 09:22:02,290 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 09:22:03,547 - werkzeug - WARNING -  * Debugger is active!
+2025-07-19 09:22:03,551 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-19 09:27:46,995 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_data.py', reloading
+2025-07-19 09:27:47,184 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 09:27:48,474 - werkzeug - WARNING -  * Debugger is active!
+2025-07-19 09:27:48,480 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-19 09:27:58,456 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_clening.py', reloading
+2025-07-19 09:27:58,582 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 09:27:59,998 - werkzeug - WARNING -  * Debugger is active!
+2025-07-19 09:28:00,003 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-19 09:28:45,476 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_clening.py', reloading
+2025-07-19 09:28:45,811 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 09:28:47,211 - werkzeug - WARNING -  * Debugger is active!
+2025-07-19 09:28:47,216 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-19 09:30:59,223 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\market_clening.py', reloading
+2025-07-19 09:30:59,369 - werkzeug - INFO -  * Restarting with stat
+2025-07-19 09:31:00,703 - werkzeug - WARNING -  * Debugger is active!
+2025-07-19 09:31:00,708 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-20 11:32:20,816 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-20 11:32:20,816 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-20 11:32:20,821 - werkzeug - INFO -  * Restarting with stat
+2025-07-20 11:32:22,434 - werkzeug - WARNING -  * Debugger is active!
+2025-07-20 11:32:22,449 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-20 11:32:34,550 - __main__.YahooFinanceAPI - INFO - Fetching stock data for ^GSPC
+2025-07-20 11:32:40,376 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 11:32:40] "GET /api/stock/^GSPC?period=1y HTTP/1.1" 200 -
+2025-07-20 11:32:42,475 - __main__.YahooFinanceAPI - INFO - Fetching stock data for EURUSD=X
+2025-07-20 11:32:42,986 - werkzeug - INFO - 127.0.0.1 - - [20/Jul/2025 11:32:42] "GET /api/stock/EURUSD=X?period=1y HTTP/1.1" 200 -
+2025-07-20 14:04:42,390 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-20 14:04:42,392 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-20 14:04:42,396 - werkzeug - INFO -  * Restarting with stat
+2025-07-20 14:04:43,956 - werkzeug - WARNING -  * Debugger is active!
+2025-07-20 14:04:43,961 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-20 14:05:09,016 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.9:5000
+2025-07-20 14:05:09,017 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-07-20 14:05:09,020 - werkzeug - INFO -  * Restarting with stat
+2025-07-20 14:05:10,253 - werkzeug - WARNING -  * Debugger is active!
+2025-07-20 14:05:10,258 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-20 15:36:57,621 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\feature_engineering.py', reloading
+2025-07-20 15:36:57,647 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\feature_engineering.py', reloading
+2025-07-20 15:36:57,825 - werkzeug - INFO -  * Restarting with stat
+2025-07-20 15:36:57,851 - werkzeug - INFO -  * Restarting with stat
+2025-07-20 15:36:59,126 - werkzeug - WARNING -  * Debugger is active!
+2025-07-20 15:36:59,126 - werkzeug - WARNING -  * Debugger is active!
+2025-07-20 15:36:59,131 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-20 15:39:57,694 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\feature_engineering.py', reloading
+2025-07-20 15:39:57,732 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\feature_engineering.py', reloading
+2025-07-20 15:39:57,832 - werkzeug - INFO -  * Restarting with stat
+2025-07-20 15:39:57,884 - werkzeug - INFO -  * Restarting with stat
+2025-07-20 15:39:59,080 - werkzeug - WARNING -  * Debugger is active!
+2025-07-20 15:39:59,084 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-20 15:39:59,098 - werkzeug - WARNING -  * Debugger is active!
+2025-07-20 15:39:59,102 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-20 15:43:27,181 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\feature_engineering.py', reloading
+2025-07-20 15:43:27,187 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\feature_engineering.py', reloading
+2025-07-20 15:43:27,313 - werkzeug - INFO -  * Restarting with stat
+2025-07-20 15:43:27,321 - werkzeug - INFO -  * Restarting with stat
+2025-07-20 15:43:28,437 - werkzeug - WARNING -  * Debugger is active!
+2025-07-20 15:43:28,437 - werkzeug - WARNING -  * Debugger is active!
+2025-07-20 15:43:28,442 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-20 15:43:28,442 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-20 15:43:29,897 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\feature_engineering.py', reloading
+2025-07-20 15:43:29,911 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\feature_engineering.py', reloading
+2025-07-20 15:43:30,032 - werkzeug - INFO -  * Restarting with stat
+2025-07-20 15:43:30,047 - werkzeug - INFO -  * Restarting with stat
+2025-07-20 15:43:31,282 - werkzeug - WARNING -  * Debugger is active!
+2025-07-20 15:43:31,287 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-20 15:43:31,291 - werkzeug - WARNING -  * Debugger is active!
+2025-07-20 15:43:31,296 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-20 15:47:26,186 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\feature_engineering.py', reloading
+2025-07-20 15:47:26,189 - werkzeug - INFO -  * Detected change in 'D:\\IITJ Projects\\Nexus-Insight-Engine\\data_acquisition\\feature_engineering.py', reloading
+2025-07-20 15:47:26,339 - werkzeug - INFO -  * Restarting with stat
+2025-07-20 15:47:26,343 - werkzeug - INFO -  * Restarting with stat
+2025-07-20 15:47:27,506 - werkzeug - WARNING -  * Debugger is active!
+2025-07-20 15:47:27,506 - werkzeug - WARNING -  * Debugger is active!
+2025-07-20 15:47:27,510 - werkzeug - INFO -  * Debugger PIN: 667-862-980
+2025-07-20 15:47:27,511 - werkzeug - INFO -  * Debugger PIN: 667-862-980
